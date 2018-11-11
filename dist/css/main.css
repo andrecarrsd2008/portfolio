@@ -101,7 +101,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../../img/background.jpeg);
+    background: url(../../img/coding.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -239,8 +239,11 @@ main {
   text-align: center;
   padding: 1rem;
   background: #101010;
-  color: white;
-  height: 60px; }
+  color: white; }
+  #main-footer .icons1 {
+    font-weight: 400;
+    color: #585858;
+    padding: 0.4rem; }
 
 @media screen and (min-width: 1171px) {
   .projects {
