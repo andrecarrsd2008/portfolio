@@ -60,12 +60,12 @@ main {
         margin-top: 1rem;
 
     a {
-        padding: 0.4rem;
+      padding: 0.4rem;
 
-        &:hover {
-            color: $secondary-color;
-            @include easeOut();
-        }
+      &:hover {
+        color: $secondary-color;
+        @include easeOut();
+      }
     }
   }
 
@@ -89,7 +89,7 @@ main {
 
 .bio-image {
     grid-area: bioimage;
-    margin: auto;
+    
     border-radius: 50%;
     border: $secondary-color 3px solid;
 }
